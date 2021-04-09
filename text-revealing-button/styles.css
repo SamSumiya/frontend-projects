@@ -1,0 +1,33 @@
+
+html, body {
+    margin: 0;
+    padding: 10px; 
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    background-color: lightyellow;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-style: "Roboto";
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6b8e23;
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+    border: 1px solid #ababab;
+    font-size: 1.1rem;
+}
