@@ -6,14 +6,13 @@ let shown = true
 function toggleText() {
     if (shown) {
         btn.innerHTML = 'Show Text 👀'
-        text.style.opacity = 0; 
+        text.style.opacity = 0;
     } else {
         btn.innerHTML = 'Hide Text 🙈'
         text.style.opacity = 1; 
     } 
     shown = !shown
 }
-
 
 btn.addEventListener('click', () => {
     toggleText()
