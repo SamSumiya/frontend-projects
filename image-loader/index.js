@@ -3,9 +3,8 @@ const urlInput =document.querySelector("input[name='input-url']")
 const colorInput =document.querySelector("input[name='input-color']")
 const numberInput =document.querySelector("input[name='input-number']")
 
-
 let url=''; 
-let width=10; 
+let width=1; 
 let color = '#000000'; 
 
 function hideImageOnload() {
