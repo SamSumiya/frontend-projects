@@ -1,0 +1,25 @@
+
+body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.img {
+    max-height: 400px;
+    max-width: 400px;
+    height: 400px;
+    width: 400px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+   margin-bottom: 10px;
+}
+
+.input {
+    margin: 0.5em;
+    margin-left: 1em;
+}
