@@ -1,0 +1,16 @@
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-main {
+    max-height: 450px;
+    max-width: 450px;
+    width: 90%;
+    height: 90%;
+    border: 1px solid black;
+}
