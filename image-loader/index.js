@@ -16,7 +16,7 @@ function setImage(url, width, color) {
     image.style.display = 'block'; 
     image.style.borderStyle = 'solid'; 
     image.style.backgroundImage = "url(" + url + ")"; 
-   
+    console.log("url(" + url + ")")
     image.style.borderWidth = width + 'px';
     image.style.borderColor = color; 
 }
